@@ -1,0 +1,121 @@
+{
+    "add_to_header": true,
+    "auth": "oauth2_custom",
+    "authentication_url": "https://accounts.spotify.com/authorize",
+    "calls": {
+        "AAD": {
+            "body_type": "json",
+            "get_headers": false,
+            "initialized": true,
+            "method": "get",
+            "name": "Find Track by ID",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1544372337223x926336963809116200.plugin_api.AAD",
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Find Track by ID\",\"fields\":{\"_p_album.album_type\":{\"ret_value\":\"text\",\"caption\":\"album album_type\",\"path\":[\"album\",\"album_type\"]},\"_p_album.artists\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAD.album.artists\",\"caption\":\"album artists\",\"path\":[\"album\",\"artists\"]},\"_p_album.available_markets\":{\"ret_value\":\"list.text\",\"caption\":\"album available_markets\",\"path\":[\"album\",\"available_markets\"]},\"_p_album.external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"album external_urls spotify\",\"path\":[\"album\",\"external_urls\",\"spotify\"]},\"_p_album.href\":{\"ret_value\":\"text\",\"caption\":\"album href\",\"path\":[\"album\",\"href\"]},\"_p_album.id\":{\"ret_value\":\"text\",\"caption\":\"album id\",\"path\":[\"album\",\"id\"]},\"_p_album.images\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAD.album.images\",\"caption\":\"album images\",\"path\":[\"album\",\"images\"]},\"_p_album.name\":{\"ret_value\":\"text\",\"caption\":\"album name\",\"path\":[\"album\",\"name\"]},\"_p_album.release_date\":{\"ret_value\":\"text\",\"caption\":\"album release_date\",\"path\":[\"album\",\"release_date\"]},\"_p_album.release_date_precision\":{\"ret_value\":\"text\",\"caption\":\"album release_date_precision\",\"path\":[\"album\",\"release_date_precision\"]},\"_p_album.total_tracks\":{\"ret_value\":\"number\",\"caption\":\"album total_tracks\",\"path\":[\"album\",\"total_tracks\"]},\"_p_album.type\":{\"ret_value\":\"text\",\"caption\":\"album type\",\"path\":[\"album\",\"type\"]},\"_p_album.uri\":{\"ret_value\":\"text\",\"caption\":\"album uri\",\"path\":[\"album\",\"uri\"]},\"_p_artists\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAD.artists\",\"caption\":\"artists\",\"path\":[\"artists\"]},\"_p_available_markets\":{\"ret_value\":\"list.text\",\"caption\":\"available_markets\",\"path\":[\"available_markets\"]},\"_p_disc_number\":{\"ret_value\":\"number\",\"caption\":\"disc_number\",\"path\":[\"disc_number\"]},\"_p_duration_ms\":{\"ret_value\":\"number\",\"caption\":\"duration_ms\",\"path\":[\"duration_ms\"]},\"_p_explicit\":{\"ret_value\":\"boolean\",\"caption\":\"explicit\",\"path\":[\"explicit\"]},\"_p_external_ids.isrc\":{\"ret_value\":\"text\",\"caption\":\"external_ids isrc\",\"path\":[\"external_ids\",\"isrc\"]},\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_is_local\":{\"ret_value\":\"boolean\",\"caption\":\"is_local\",\"path\":[\"is_local\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_popularity\":{\"ret_value\":\"number\",\"caption\":\"popularity\",\"path\":[\"popularity\"]},\"_p_preview_url\":{\"ret_value\":\"text\",\"caption\":\"preview_url\",\"path\":[\"preview_url\"]},\"_p_track_number\":{\"ret_value\":\"number\",\"caption\":\"track_number\",\"path\":[\"track_number\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.AAD.album.artists\":{\"caption\":\"Find Track by ID album artist\",\"fields\":{\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.AAD.album.images\":{\"caption\":\"Find Track by ID album image\",\"fields\":{\"_p_height\":{\"ret_value\":\"number\",\"caption\":\"height\",\"path\":[\"height\"]},\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"path\":[\"url\"]},\"_p_width\":{\"ret_value\":\"number\",\"caption\":\"width\",\"path\":[\"width\"]}}},\"plugin_api.AAD.artists\":{\"caption\":\"Find Track by ID artist\",\"fields\":{\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}}}",
+            "url": "https://api.spotify.com/v1/tracks/[id]",
+            "url_params": {
+                "AAE": {
+                    "doc": "This is a Spotify track ID that should be present in any track URL",
+                    "key": "id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAF": {
+            "initialized": true,
+            "method": "get",
+            "name": "Find Album by ID",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1544372337223x926336963809116200.plugin_api.AAF",
+            "types": "{\"plugin_api.AAF\":{\"caption\":\"Find Album by ID\",\"fields\":{\"_p_album_type\":{\"ret_value\":\"text\",\"caption\":\"album_type\",\"path\":[\"album_type\"]},\"_p_artists\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAF.artists\",\"caption\":\"artists\",\"path\":[\"artists\"]},\"_p_available_markets\":{\"ret_value\":\"list.text\",\"caption\":\"available_markets\",\"path\":[\"available_markets\"]},\"_p_copyrights\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAF.copyrights\",\"caption\":\"copyrights\",\"path\":[\"copyrights\"]},\"_p_external_ids.upc\":{\"ret_value\":\"text\",\"caption\":\"external_ids upc\",\"path\":[\"external_ids\",\"upc\"]},\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_images\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAF.images\",\"caption\":\"images\",\"path\":[\"images\"]},\"_p_label\":{\"ret_value\":\"text\",\"caption\":\"label\",\"path\":[\"label\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_popularity\":{\"ret_value\":\"number\",\"caption\":\"popularity\",\"path\":[\"popularity\"]},\"_p_release_date\":{\"ret_value\":\"text\",\"caption\":\"release_date\",\"path\":[\"release_date\"]},\"_p_release_date_precision\":{\"ret_value\":\"text\",\"caption\":\"release_date_precision\",\"path\":[\"release_date_precision\"]},\"_p_total_tracks\":{\"ret_value\":\"number\",\"caption\":\"total_tracks\",\"path\":[\"total_tracks\"]},\"_p_tracks.href\":{\"ret_value\":\"text\",\"caption\":\"tracks href\",\"path\":[\"tracks\",\"href\"]},\"_p_tracks.items\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAF.tracks.items\",\"caption\":\"tracks\",\"path\":[\"tracks\",\"items\"]},\"_p_tracks.limit\":{\"ret_value\":\"number\",\"caption\":\"tracks limit\",\"path\":[\"tracks\",\"limit\"]},\"_p_tracks.next\":{\"ret_value\":\"text\",\"caption\":\"tracks next\",\"path\":[\"tracks\",\"next\"]},\"_p_tracks.offset\":{\"ret_value\":\"number\",\"caption\":\"tracks offset\",\"path\":[\"tracks\",\"offset\"]},\"_p_tracks.previous\":{\"ret_value\":\"text\",\"caption\":\"tracks previous\",\"path\":[\"tracks\",\"previous\"]},\"_p_tracks.total\":{\"ret_value\":\"number\",\"caption\":\"tracks total\",\"path\":[\"tracks\",\"total\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.AAF.artists\":{\"caption\":\"Find Album by ID artist\",\"fields\":{\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.AAF.copyrights\":{\"caption\":\"Find Album by ID copyright\",\"fields\":{\"_p_text\":{\"ret_value\":\"text\",\"caption\":\"text\",\"path\":[\"text\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]}}},\"plugin_api.AAF.images\":{\"caption\":\"Find Album by ID image\",\"fields\":{\"_p_height\":{\"ret_value\":\"number\",\"caption\":\"height\",\"path\":[\"height\"]},\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"path\":[\"url\"]},\"_p_width\":{\"ret_value\":\"number\",\"caption\":\"width\",\"path\":[\"width\"]}}},\"plugin_api.AAF.tracks.items\":{\"caption\":\"Find Album by ID tracks item\",\"fields\":{\"_p_artists\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAF.artists_3\",\"caption\":\"artists\",\"path\":[\"artists\"]},\"_p_available_markets\":{\"ret_value\":\"list.text\",\"caption\":\"available_markets\",\"path\":[\"available_markets\"]},\"_p_disc_number\":{\"ret_value\":\"number\",\"caption\":\"disc_number\",\"path\":[\"disc_number\"]},\"_p_duration_ms\":{\"ret_value\":\"number\",\"caption\":\"duration_ms\",\"path\":[\"duration_ms\"]},\"_p_explicit\":{\"ret_value\":\"boolean\",\"caption\":\"explicit\",\"path\":[\"explicit\"]},\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_is_local\":{\"ret_value\":\"boolean\",\"caption\":\"is_local\",\"path\":[\"is_local\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_preview_url\":{\"ret_value\":\"text\",\"caption\":\"preview_url\",\"path\":[\"preview_url\"]},\"_p_track_number\":{\"ret_value\":\"number\",\"caption\":\"track_number\",\"path\":[\"track_number\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.AAF.artists_3\":{\"caption\":\"Find Album by ID artist 3\",\"fields\":{\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}}}",
+            "url": "https://api.spotify.com/v1/albums/[id]",
+            "url_params": {
+                "AAo": {
+                    "doc": "This is a Spotify album ID that should be present in any track URL",
+                    "key": "id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAn": {
+            "body_type": "json",
+            "initialized": true,
+            "method": "get",
+            "name": "Search Track",
+            "params": {
+                "ABe": {
+                    "doc": "Search for tracks using keywords (supports advanced search)",
+                    "key": "q",
+                    "private": true,
+                    "value": ""
+                },
+                "ABf": {
+                    "key": "type",
+                    "optional": false,
+                    "private": true,
+                    "value": "track",
+                    "visibility": "hidden"
+                }
+            },
+            "publish_as": "action",
+            "rank": 2,
+            "ret_value": "api.1544372337223x926336963809116200.plugin_api.AAn",
+            "types": "{\"plugin_api.AAn\":{\"caption\":\"Search Track\",\"fields\":{\"_p_tracks.href\":{\"ret_value\":\"text\",\"caption\":\"tracks href\",\"path\":[\"tracks\",\"href\"]},\"_p_tracks.items\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAn.tracks.items\",\"caption\":\"tracks\",\"path\":[\"tracks\",\"items\"]},\"_p_tracks.limit\":{\"ret_value\":\"number\",\"caption\":\"tracks limit\",\"path\":[\"tracks\",\"limit\"]},\"_p_tracks.next\":{\"ret_value\":\"text\",\"caption\":\"tracks next\",\"path\":[\"tracks\",\"next\"]},\"_p_tracks.offset\":{\"ret_value\":\"number\",\"caption\":\"tracks offset\",\"path\":[\"tracks\",\"offset\"]},\"_p_tracks.previous\":{\"ret_value\":\"text\",\"caption\":\"tracks previous\",\"path\":[\"tracks\",\"previous\"]},\"_p_tracks.total\":{\"ret_value\":\"number\",\"caption\":\"tracks total\",\"path\":[\"tracks\",\"total\"]}}},\"plugin_api.AAn.tracks.items\":{\"caption\":\"Search Track tracks item\",\"fields\":{\"_p_album.album_type\":{\"ret_value\":\"text\",\"caption\":\"album album_type\",\"path\":[\"album\",\"album_type\"]},\"_p_album.artists\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAn.album.artists\",\"caption\":\"album artists\",\"path\":[\"album\",\"artists\"]},\"_p_album.available_markets\":{\"ret_value\":\"list.text\",\"caption\":\"album available_markets\",\"path\":[\"album\",\"available_markets\"]},\"_p_album.external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"album external_urls spotify\",\"path\":[\"album\",\"external_urls\",\"spotify\"]},\"_p_album.href\":{\"ret_value\":\"text\",\"caption\":\"album href\",\"path\":[\"album\",\"href\"]},\"_p_album.id\":{\"ret_value\":\"text\",\"caption\":\"album id\",\"path\":[\"album\",\"id\"]},\"_p_album.images\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAn.album.images\",\"caption\":\"album images\",\"path\":[\"album\",\"images\"]},\"_p_album.name\":{\"ret_value\":\"text\",\"caption\":\"album name\",\"path\":[\"album\",\"name\"]},\"_p_album.release_date\":{\"ret_value\":\"text\",\"caption\":\"album release_date\",\"path\":[\"album\",\"release_date\"]},\"_p_album.release_date_precision\":{\"ret_value\":\"text\",\"caption\":\"album release_date_precision\",\"path\":[\"album\",\"release_date_precision\"]},\"_p_album.total_tracks\":{\"ret_value\":\"number\",\"caption\":\"album total_tracks\",\"path\":[\"album\",\"total_tracks\"]},\"_p_album.type\":{\"ret_value\":\"text\",\"caption\":\"album type\",\"path\":[\"album\",\"type\"]},\"_p_album.uri\":{\"ret_value\":\"text\",\"caption\":\"album uri\",\"path\":[\"album\",\"uri\"]},\"_p_artists\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.AAn.artists\",\"caption\":\"artists\",\"path\":[\"artists\"]},\"_p_available_markets\":{\"ret_value\":\"list.text\",\"caption\":\"available_markets\",\"path\":[\"available_markets\"]},\"_p_disc_number\":{\"ret_value\":\"number\",\"caption\":\"disc_number\",\"path\":[\"disc_number\"]},\"_p_duration_ms\":{\"ret_value\":\"number\",\"caption\":\"duration_ms\",\"path\":[\"duration_ms\"]},\"_p_explicit\":{\"ret_value\":\"boolean\",\"caption\":\"explicit\",\"path\":[\"explicit\"]},\"_p_external_ids.isrc\":{\"ret_value\":\"text\",\"caption\":\"external_ids isrc\",\"path\":[\"external_ids\",\"isrc\"]},\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_is_local\":{\"ret_value\":\"boolean\",\"caption\":\"is_local\",\"path\":[\"is_local\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_popularity\":{\"ret_value\":\"number\",\"caption\":\"popularity\",\"path\":[\"popularity\"]},\"_p_preview_url\":{\"ret_value\":\"text\",\"caption\":\"preview_url\",\"path\":[\"preview_url\"]},\"_p_track_number\":{\"ret_value\":\"number\",\"caption\":\"track_number\",\"path\":[\"track_number\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.AAn.album.artists\":{\"caption\":\"Search Track album artist\",\"fields\":{\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.AAn.album.images\":{\"caption\":\"Search Track album image\",\"fields\":{\"_p_height\":{\"ret_value\":\"number\",\"caption\":\"height\",\"path\":[\"height\"]},\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"path\":[\"url\"]},\"_p_width\":{\"ret_value\":\"number\",\"caption\":\"width\",\"path\":[\"width\"]}}},\"plugin_api.AAn.artists\":{\"caption\":\"Search Track artist\",\"fields\":{\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}}}",
+            "url": "https://api.spotify.com/v1/search"
+        },
+        "ABg": {
+            "initialized": true,
+            "method": "get",
+            "name": "Search Album",
+            "params": {
+                "ABh": {
+                    "doc": "Search for albums using keywords (supports advanced search)",
+                    "key": "q",
+                    "private": true,
+                    "value": ""
+                },
+                "ABi": {
+                    "key": "type",
+                    "private": true,
+                    "value": "album",
+                    "visibility": "hidden"
+                }
+            },
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1544372337223x926336963809116200.plugin_api.ABg",
+            "types": "{\"plugin_api.ABg\":{\"caption\":\"Search Album\",\"fields\":{\"_p_albums.href\":{\"ret_value\":\"text\",\"caption\":\"albums href\",\"path\":[\"albums\",\"href\"]},\"_p_albums.items\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.ABg.albums.items\",\"caption\":\"albums\",\"path\":[\"albums\",\"items\"]},\"_p_albums.limit\":{\"ret_value\":\"number\",\"caption\":\"albums limit\",\"path\":[\"albums\",\"limit\"]},\"_p_albums.next\":{\"ret_value\":\"text\",\"caption\":\"albums next\",\"path\":[\"albums\",\"next\"]},\"_p_albums.offset\":{\"ret_value\":\"number\",\"caption\":\"albums offset\",\"path\":[\"albums\",\"offset\"]},\"_p_albums.previous\":{\"ret_value\":\"text\",\"caption\":\"albums previous\",\"path\":[\"albums\",\"previous\"]},\"_p_albums.total\":{\"ret_value\":\"number\",\"caption\":\"albums total\",\"path\":[\"albums\",\"total\"]}}},\"plugin_api.ABg.albums.items\":{\"caption\":\"Search Album albums item\",\"fields\":{\"_p_album_type\":{\"ret_value\":\"text\",\"caption\":\"album_type\",\"path\":[\"album_type\"]},\"_p_artists\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.ABg.artists\",\"caption\":\"artists\",\"path\":[\"artists\"]},\"_p_available_markets\":{\"ret_value\":\"list.text\",\"caption\":\"available_markets\",\"path\":[\"available_markets\"]},\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_images\":{\"ret_value\":\"list.api.1544372337223x926336963809116200.plugin_api.ABg.images\",\"caption\":\"images\",\"path\":[\"images\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_release_date\":{\"ret_value\":\"text\",\"caption\":\"release_date\",\"path\":[\"release_date\"]},\"_p_release_date_precision\":{\"ret_value\":\"text\",\"caption\":\"release_date_precision\",\"path\":[\"release_date_precision\"]},\"_p_total_tracks\":{\"ret_value\":\"number\",\"caption\":\"total_tracks\",\"path\":[\"total_tracks\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.ABg.artists\":{\"caption\":\"Search Album artist\",\"fields\":{\"_p_external_urls.spotify\":{\"ret_value\":\"text\",\"caption\":\"external_urls spotify\",\"path\":[\"external_urls\",\"spotify\"]},\"_p_href\":{\"ret_value\":\"text\",\"caption\":\"href\",\"path\":[\"href\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"path\":[\"type\"]},\"_p_uri\":{\"ret_value\":\"text\",\"caption\":\"uri\",\"path\":[\"uri\"]}}},\"plugin_api.ABg.images\":{\"caption\":\"Search Album image\",\"fields\":{\"_p_height\":{\"ret_value\":\"number\",\"caption\":\"height\",\"path\":[\"height\"]},\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"path\":[\"url\"]},\"_p_width\":{\"ret_value\":\"number\",\"caption\":\"width\",\"path\":[\"width\"]}}}}",
+            "url": "https://api.spotify.com/v1/search"
+        },
+        "token_call": {
+            "body": "grant_type=client_credentials",
+            "method": "post",
+            "url": "https://accounts.spotify.com/api/token"
+        }
+    },
+    "generate_token_from_code_uri": "https://accounts.spotify.com/api/token",
+    "header_key": "Authorization: Bearer",
+    "human": "Spotify",
+    "oauth_user_data_call": "https://api.spotify.com/v1/me",
+    "scope": "user-read-private",
+    "shared_headers": {
+        "AAf": {
+            "doc": "Your basic auth header",
+            "key": "Authorization",
+            "private": true,
+            "visibility": "secret"
+        },
+        "AAi": {
+            "key": "Content-Type",
+            "private": true,
+            "value": "application/x-www-form-urlencoded",
+            "visibility": "hidden"
+        }
+    },
+    "token_endpoint": "https://accounts.spotify.com/api/token",
+    "token_param_name": "Authorization"
+}

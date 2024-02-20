@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "social network",
+        "1": "media"
+    },
+    "demo_page": "",
+    "description": "Find Spotify Tracks and Albums by Spotify ID or search query (supports advanced search). \n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//meta-q.cdn.bubble.io/f1707182677466x283321777726238000/Spotify%20Search.webp",
+    "instructions": "",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins ",
+    "name": "Spotify Search",
+    "plugin_instructions": "STEP 1\n\nFor authorization you need to use the client credentials flow. Retrieve your client id and client from: https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow\n\nSTEP 2\n\nUse your client id and client secret to create a string in the following format, as specified in the Spotify docs:\n\nBasic <base64 encoded client_id:client_secret>\n\nDo it yourself or a use a tool like: https://www.blitter.se/utils/basic-authentication-header-generator/\n\nSTEP 3\n\nCopy the value and paste it into the 'Authorization' field in the plugin settings. Note that you only need the second part of the string if you used the tool in the previous step (Basic YXNkOnF3ZQ== and NOT Authorization: Basic YXNkOnF3ZQ==)\n\nStep 4\n\nUse the plugin! In bubble you should now find the actions under 'Plugins' in any workflow.\n\n"
+}
